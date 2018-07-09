@@ -58,7 +58,7 @@ spring:
             enabled: false
     thymeleaf:
         mode: HTML
-        
+
 
 server:
     port: 10344
@@ -107,4 +107,7 @@ jhipster:
 # https://www.jhipster.tech/common-application-properties/
 # ===================================================================
 
-# application:
+application:
+    restTemplateConfig:
+        readTimeout: 350
+        connectTimeout: 550
