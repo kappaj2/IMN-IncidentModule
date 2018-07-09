@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "za.co.tman.incident",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.0.0-beta.2",
+    "applicationType": "microservice",
+    "baseName": "incidentmodule",
+    "packageName": "za.co.tman.incident",
+    "packageFolder": "za/co/tman/incident",
+    "serverPort": "8082",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "2ddbedb2091f99e239cf36725c8c81ee308ee173",
+    "enableTranslation": true,
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "clientPackageManager": "yarn",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
