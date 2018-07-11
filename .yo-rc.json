@@ -9,7 +9,7 @@
     "baseName": "incidentmodule",
     "packageName": "za.co.tman.incident",
     "packageFolder": "za/co/tman/incident",
-    "serverPort": "8082",
+    "serverPort": "8092",
     "authenticationType": "jwt",
     "cacheProvider": "hazelcast",
     "enableHibernateCache": true,
